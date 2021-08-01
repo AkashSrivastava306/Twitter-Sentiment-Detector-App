@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@300&family=Lobster&display=swap');
+
+*{
+    background-color:rgb(10, 1, 1);
+}
+#name{
+    font-family:'Anton', sans-serif;
+    font-size: 3em;
+    color: aqua;
+    padding-top: 0.5em;
+    letter-spacing: 1px;
+    padding-bottom: 0.3em;
+    
+  }
+
+#Message{
+    height: 17rem;
+    width: 70%;
+}
+#para{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: bisque;
+}
+.my-cta-button {
+    background-color:whitesmoke;
+    border: 2px solid #000000;
+    border-radius: 1000px;
+    box-shadow: 3px 3px #8c8c8c;
+    
+    padding:16px 36px;
+    margin-top: 15px;
+    color: #000000;
+    display: inline-block;
+    font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+.my-cta-button:hover{
+    color:  	#ff3377;
+    border: 2px solid  	 #ff3377;
+   
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+#para1{
+    font-family: 'IBM Plex Sans', cursive;
+    font-size: 1.5em;
+    color: rgb(138, 206, 245);
+
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0;
+}
+
+.footer-social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+.footer-social-link {
+	height: 24px;
+	width: 24px;
+	stroke: #384047;
+	transition: all .3s;
+	transition-property: stroke;
+}
+#tw{
+    stroke:  #4d94ff;
+}
+#in{
+    stroke:  #ff99bb;
+}
+#gt{
+    stroke:  #d1d1e0;
+}
+
+#ln{
+    stroke:  #66d9ff;
+}
+.footer-social-link:hover {
+    stroke: black;
+	
+}
+
+.footer-social-link + .footer-social-link {
+	margin-left: 20px;
+}
+
+.footer-social-link .icon {
+	height: 100%;
+	width: 100%;
+	stroke: inherit;
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: none;
+}
+/* Result */
+.results{
+    padding: 30px 0 0;
+	flex: 1 0 auto;
+}
+
+.danger{
+    justify-content: center;
+    margin: auto;
+    color: #d5a619;
+    display: flex;
+    align-items: center;
+}
+
+.safe{
+    justify-content: center;
+    margin: auto;
+    color: green;
+    display: flex;
+    align-items: center;
+}
+.red{
+    justify-content: center;
+    margin: auto;
+    color:red ;
+    display: flex;
+    align-items: center;
+}
+
+.gif{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.senti{
+    text-align: center;
+}
+h1{
+    color: bisque;
+    text-align: center;
+}
+.message{
+    width: 50%;
+    height: 12em;
+    padding-bottom: 0.25em;
+
+}
+textarea{
+    color: bisque;
+}
