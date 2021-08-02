@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import joblib
 
-app = Flask(__name__)
+
 
 filename = open('pickle.pkl', 'rb')
 clf = joblib.load(filename)
