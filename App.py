@@ -9,7 +9,7 @@ import joblib
 
 filename = open('pickle.pkl', 'rb')
 clf = joblib.load(filename)
-test = open('transform.pkl.', 'rb')
+test = open('transform.pkl', 'rb')
 cv = joblib.load(test)
 app = Flask(__name__, template_folder='template')
 @app.route('/')
